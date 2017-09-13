@@ -9,9 +9,11 @@ BRANCH="master"
 SRCREV = "63e8ce25e6b282719d112f3f58966cc1e78d271b"
 
 SRC_DIR = "git"
-SRC_URI += "${URL};branch=${BRANCH};tag=${TAG};protocol=https \
+SRC_URI += "${URL};branch=${BRANCH};protocol=https \
             file://debian \
            "
 
 SECTION = "utils"
 PRIORITY = "optional"
+
+
