@@ -27,7 +27,7 @@ PRIORITY = "optional"
 # the applications makefile.
 # For an example take a look at the samples/linux/subscribe_publish_cpp_sample folder.
 #
-# So for now we will install the needed dependencies (mbedTLS) and also this SDK folder into
+# So for now we will install this SDK into
 # the /opt/ folder for now.
 #
 #
