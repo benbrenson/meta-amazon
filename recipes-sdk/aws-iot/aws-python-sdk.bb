@@ -3,6 +3,9 @@ LICENSE = "gpl2"
 
 inherit dpkg debianize-python
 
+DEP_RDEPENDS = "openssl"
+
+PYTHON_VERSION = "3"
 
 URL="git://github.com/aws/aws-iot-device-sdk-python.git"
 BRANCH="master"
