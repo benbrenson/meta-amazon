@@ -3,7 +3,7 @@ LICENSE = "gpl2"
 
 inherit dpkg debianize
 
-DEB_DEPENDS += "libmbedtls-dev"
+DEB_DEPENDS_append = " libmbedtls-dev "
 
 URL="git://github.com/aws/aws-iot-device-sdk-embedded-C.git"
 BRANCH="master"
